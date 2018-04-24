@@ -22,6 +22,6 @@ function currentLine(deliLine) {
       resultString = resultString.concat(`${i + 1}. ${deliLine[i]}, `);
     }
     
-    return resultString
+    return resultString.slice(0, -2)
   }
 }
