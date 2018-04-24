@@ -19,7 +19,7 @@ function currentLine(deliLine) {
   else {
     let resultString = "The line is currently: ";
     for (let i = 0; i < deliLine.length; i++) {
-      resultString = resultString.concat(`${i + 1}. ${deliLine[i]}`);
+      resultString = resultString.concat(`${i + 1}. ${deliLine[i]} `);
     }
     return resultString
   }
