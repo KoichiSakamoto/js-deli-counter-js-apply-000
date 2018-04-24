@@ -17,9 +17,9 @@ function currentLine(deliLine) {
     return "The line is currently empty.";
   }
   else {
-    resultString = "The line is currentl: ";
-    for (int i = 0; i < deliLine.length; i++) {
-      
+    let resultString = "The line is currently: ";
+    for (let i = 0; i < deliLine.length; i++) {
+      resultString = resultString.concat()
     }
   }
 }
